@@ -13,14 +13,6 @@
 (function () {
     'use strict';
     console.log("hello world");
-    let a = {
-        'a': 1,
-        "b": 2
-    }
-    let b = [1, 2, 3, 4, 5, 6, 7]
-    b.foreach(x => {
-        console.log(x);
-    })
     // 创造一个按钮
     let btn = document.createElement('button')
     // 获取body
