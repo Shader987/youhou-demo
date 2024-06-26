@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         hello world
 // @namespace    http://tampermonkey.net/
-// @version      0.1.2
+// @version      0.1.1
 // @description  new ss
 // @author       You
 // @match        *://*
