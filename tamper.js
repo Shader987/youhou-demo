@@ -17,7 +17,11 @@
         'a': 1,
         "b": 2
     }
-    a.foreach((x) => {
+    let b = [{
+        'a': 1,
+        "b": 2
+    }, { "c": 212 }]
+    b.foreach((x) => {
         console.log(x);
     })
     confirm("我帅不帅")
