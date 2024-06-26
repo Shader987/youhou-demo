@@ -6,6 +6,7 @@
 // @author       You
 // @match        *://*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=0.1
+// @license           Apache-2.0
 // @grant        none
 // ==/UserScript==
 
