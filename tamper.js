@@ -16,7 +16,8 @@
     // 创造一个按钮
     let btn = document.createElement('button')
     // 获取body
-    let body = document.getElementsByTagName('body')[0]
+    // let body = document.getElementsByTagName('body')[0]
+    let body = document.querySelector('body')
     btn.textContent = "点一下我"
     btn.onclick = () => {
         alert('hhhh')
