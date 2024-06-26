@@ -17,7 +17,7 @@
     let btn = document.createElement('button')
     // 获取body
     // let body = document.getElementsByTagName('body')[0]
-    let body = document.querySelector('body')
+    let body = document.querySelector('.width-constraint')
     btn.textContent = "点一下我"
     btn.onclick = () => {
         alert('hhhh')
