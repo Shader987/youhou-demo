@@ -14,21 +14,22 @@
     'use strict';
     console.log("hello world");
     // 创造一个按钮
-    let btn = document.createElement('button')
-    // 获取body
-    // let body = document.getElementsByTagName('body')[0]
-    let body = document.querySelector('.width-constraint')
-    btn.style.position = 'fixed'; // 设置按钮的位置为固定，可以根据需要调整样式
-    btn.style.top = '10px'; // 距离顶部的距离
-    btn.style.left = '10px'; // 距离左侧的距离
-    btn.style.zIndex = 9999; // 确保按钮在最上层
 
-    btn.textContent = "点一下我"
-    btn.onclick = () => {
-        alert('hhhh')
-    }
-    // body.insertBefore(btn, body.children[0])
+    // 创建一个新的按钮元素
+    var button = document.createElement('button');
+    button.innerHTML = '点击我！'; // 设置按钮上的文本
+    button.style.position = 'fixed'; // 设置按钮的位置为固定，可以根据需要调整样式
+    button.style.top = '10px'; // 距离顶部的距离
+    button.style.left = '10px'; // 距离左侧的距离
+    button.style.zIndex = 9999; // 确保按钮在最上层
+
+    // 为按钮添加点击事件监听器
+    button.addEventListener('click', function () {
+        console.log('按钮被点击了！');
+        // 在这里添加你想在点击按钮时执行的其他操作
+    });
+
+    // 将按钮添加到页面的body中
     document.body.appendChild(button);
-    confirm("我帅不帅")
     // Your code here...
 })();
