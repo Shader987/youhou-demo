@@ -21,6 +21,15 @@
     b.foreach(x => {
         console.log(x);
     })
+    // 创造一个按钮
+    let btn = document.createElement('button')
+    // 获取body
+    let body = document.getElementsByTagName('body')[0]
+    btn.textContent = "点一下我"
+    btn.onclick = () => {
+        alert('hhhh')
+    }
+    body.insertBefore(btn, body.children[0])
     confirm("我帅不帅")
     // Your code here...
 })();
