@@ -17,6 +17,7 @@
         var button = document.createElement('button');
         button.innerHTML = '点击我！';
         button.style.position = 'fixed';
+        button.style.display = 'block'
         button.style.top = '10px';
         button.style.left = '10px';
         button.style.zIndex = 9999;
@@ -34,5 +35,6 @@
 
         // 将按钮添加到页面的body中
         document.body.appendChild(button);
+        console.log(button);
     });
 })();
