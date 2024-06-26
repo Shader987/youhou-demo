@@ -13,6 +13,13 @@
 (function () {
     'use strict';
     console.log("hello world");
+    let a = {
+        'a': 1,
+        "b": 2
+    }
+    a.foreach((x) => {
+        console.log(x);
+    })
     confirm("我帅不帅")
     // Your code here...
 })();
