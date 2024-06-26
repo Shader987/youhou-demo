@@ -1,10 +1,10 @@
 // ==UserScript==
-// @name         New Userscript
+// @name         hello world
 // @namespace    http://tampermonkey.net/
-// @version      2024-06-26
-// @description  try to take over the world!
+// @version      0.1.0
+// @description  new ss
 // @author       You
-// @match        http://127.0.0.1:31510/?code=b3ee9f6c0ce30c292070&state=bea3fceb2ab94388a8fd48ee9222fd44
+// @match        *://*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=0.1
 // @grant        none
 // ==/UserScript==
