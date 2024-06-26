@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         hello world
 // @namespace    http://tampermonkey.net/
-// @version      0.1.3
+// @version      0.1.4
 // @description  new ss
 // @author       You
 // @match        *://*
@@ -12,6 +12,7 @@
 
 (function () {
     'use strict';
+    console.log("创建按钮前");
     document.addEventListener('DOMContentLoaded', function () {
         // 创建一个新的按钮元素
         var button = document.createElement('button');
@@ -36,5 +37,6 @@
         // 将按钮添加到页面的body中
         document.body.appendChild(button);
         console.log(button);
+        console.log("创建按钮后");
     });
 })();
