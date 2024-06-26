@@ -18,11 +18,17 @@
     // 获取body
     // let body = document.getElementsByTagName('body')[0]
     let body = document.querySelector('.width-constraint')
+    btn.style.position = 'fixed'; // 设置按钮的位置为固定，可以根据需要调整样式
+    btn.style.top = '10px'; // 距离顶部的距离
+    btn.style.left = '10px'; // 距离左侧的距离
+    btnstyle.zIndex = 9999; // 确保按钮在最上层
+
     btn.textContent = "点一下我"
     btn.onclick = () => {
         alert('hhhh')
     }
-    body.insertBefore(btn, body.children[0])
+    // body.insertBefore(btn, body.children[0])
+    document.body.appendChild(button);
     confirm("我帅不帅")
     // Your code here...
 })();
